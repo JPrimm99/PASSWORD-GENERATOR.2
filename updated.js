@@ -18,10 +18,10 @@ btngenerateEl.addEventListener("click", function () {
 
         let newPassword = "";
 
-        let genSymbols = confirm("Click to confirm Special Characters (!, $, %, etc.)");
-        let genNumbers = confirm("Click to confirm numbers?");
-        let genLowerCase = confirm("Click to confirm lowercase letters?");
-        let genUpperCase = confirm("Click to confirm uppercase letter?");
+        let genSymbols = confirm("Click OK confirm Special Characters (!, $, %, etc.) CLICK CANCEL TO EXIT.");
+        let genNumbers = confirm("Click OK confirm numbers. CLICK CANCEL TO EXIT.");
+        let genLowerCase = confirm("Click OK confirm lowercase letters. CLICK CANCEL TO EXIT.");
+        let genUpperCase = confirm("Click OK confirm uppercase letter. CLICK CANCEL TO EXIT.");
 
         var allCharacters = symbols + numbers + lowerCase + upperCase;
         var a = symbols + numbers + lowerCase;
